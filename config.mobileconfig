@@ -2,88 +2,67 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadDisplayName</key>
-  <string>Locket Gold</string>
-  <key>PayloadDescription</key>
-  <string>Kích Hoạt Locket Gold Miễn Phí.
-Bản Quyền Thuộc Về Plat•Dex</string>
-  <key>PayloadIdentifier</key>
-  <string>com.locketgold.config</string>
-  <key>PayloadOrganization</key>
-  <string>Local Research</string>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadUUID</key>
-  <string>7EFC14CA-B59F-4BAD-B487-0C4FC0C4D3F4</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
-  <key>PayloadRemovalDisallowed</key>
-  <false/>
-  <key>PayloadContent</key>
-  <array>
-
-    <!-- ① Trust CA -->
-    <dict>
-      <key>PayloadType</key>
-      <string>com.apple.security.root</string>
-      <key>PayloadIdentifier</key>
-      <string>com.locketgold.ca</string>
-      <key>PayloadUUID</key>
-      <string>80330486-E9C7-4EBB-83E8-1BCA82B6E780</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>PayloadDisplayName</key>
-      <string>Plat LocketGold CA</string>
-      <key>PayloadCertificateFileName</key>
-      <string>LocketGoldCA.der</string>
-      <key>PayloadContent</key>
-      <data>
-MIIDCTCCAfGgAwIBAgIBATANBgkqhkiG9w0BAQsFADA/MRcwFQYDVQQDEw5Mb2NrZXRQcm94eSBD
-				QTEXMBUGA1UEChMOTG9jYWwgUmVzZWFyY2gxCzAJBgNVBAYTAlZOMB4XDTI2MDkyNjA0NDQ0MloX
-				DTM2MDkyNjA0NDQ0MlowPzEXMBUGA1UEAxMOTG9ja2V0UHJveHkgQ0ExFzAVBgNVBAoTDkxvY2Fs
-				IFJlc2VhcmNoMQswCQYDVQQGEwJWTjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUd
-				iV8qKFTA9twV9HT9zIsnYWakTT0lHJcQsITUPJ75hUuPRXWdfglj9gLVTwwjRru2n65T3oHAy1j+
-				Odv5p7pThkZlSHhnD245L1/H+5ncUeb7FHZpUoW9ITr4V9vRg+AIF/qaVyVKgOD6BUrgufCcm1CN
-				hBEzoURk7JfW5URGhY6B6vNxcEaekRVMVpFHrIQ/WwI1bwCBeB1v8GgnYBJZtnDcKfP3KO4hItW+
-				dGnIl+9SVQ6mPxXArhysxJgs0olTl9bSBDb+7GTWpMGT7pJPEuhLX1Byv609XDKf/Hexa8+3eckU
-				x97H7jKZUmEtdQuinSzKke6pS0YQR1IHCjsCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG
-				9w0BAQsFAAOCAQEAldf0/QHRK611YDQ8PhjJMz8tyR+1WMjxWXrp8aWdm/Fz2HUJ8uowwkF7aQDe
-				LjG9HoGZ0fmVKoOK3slY5V+nENXDL+lUIi9hrs/+YZLIwYWaYpnebHQeWhvFo4tUrydmYe9V3chT
-				tfYlOo6hYIFADDfq1uyox4GYJsEwAE8iyhgt42uQCM9ukdCIZk7dTnm2aSU6HvMOqs3b4hFyuA9K
-				/G/i2Yicw/haX9XIbCd2n//mR1BLLx8M6gyUt+ZFESObVeDOwpuVxXdvHjqioW/R4WbGMIDl0S25
-				JUPqTOcAtnAZq5gDAWZqUILCrNztNrUie6ePqpv4tIzmciB8o+HdmQ==
-      </data>
-    </dict>
-
-    <!-- ② DNS over HTTPS – redirect 2 domains, forward mọi thứ khác -->
-    <dict>
-      <key>PayloadType</key>
-      <string>com.apple.dnsSettings.managed</string>
-      <key>PayloadIdentifier</key>
-      <string>com.locketgold.dns</string>
-      <key>PayloadUUID</key>
-      <string>2D829C72-2E62-4CBE-9294-052385226BEA</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>PayloadDisplayName</key>
-      <string>Plat Locket Gold DNS</string>
-      <key>DNSSettings</key>
-      <dict>
-        <key>DNSProtocol</key>
-        <string>HTTPS</string>
-        <key>ServerURL</key>
-        <string>https://dns.nodns.vn/dns-query</string>
-        <key>SupplementalMatchDomains</key>
-        <array>
-          <string>api.revenuecat.com</string>
-          <string>revenuecat.com</string>
-          <string>firebaseremoteconfig.googleapis.com</string>
-          <string>firebaseremoteconfigrealtime.googleapis.com</string>
-          <string>firebaselogging.googleapis.com</string>
-        </array>
-      </dict>
-    </dict>
-
-  </array>
+    <key>PayloadDisplayName</key>
+    <string>Locket Gold VIP - Plat</string>
+    <key>PayloadDescription</key>
+    <string>Cau hinh kich hoat Locket Gold vinh vien by Plat</string>
+    <key>PayloadIdentifier</key>
+    <string>com.dinostore.locket.gold</string>
+    <key>PayloadOrganization</key>
+    <string>Plat•Dex</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>9c3e537e-ba41-40ea-83ca-256a22b2e79e</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.dinostore.locket.rootca</string>
+            <key>PayloadUUID</key>
+            <string>707fb153-ab2b-4028-af46-98fa3b90a189</string>
+            <key>PayloadDisplayName</key>
+            <string>Plat - RevenueCat Root CA</string>
+            <key>PayloadDescription</key>
+            <string>Chung chi bao mat xac thuc Locket Gold by Plat</string>
+            <key>PayloadContent</key>
+            <data>
+MIIDWTCCAkGgAwIBAgIUR5+4HrMkpXDKRXGcPV7nxDCJeBUwDQYJKoZIhvcNAQELBQAwOjEbMBkGA1UEAwwSYXBpLnJldmVudWVjYXQuY29tMRswGQYDVQQKDBJSZXZlbnVlQ2F0IE1vY2sgQ0EwHhcNMjYxMDAzMDUyNDIzWhcNMzYwOTMwMDUyNDIzWjA6MRswGQYDVQQDDBJhcGkucmV2ZW51ZWNhdC5jb20xGzAZBgNVBAoMElJldmVudWVDYXQgTW9jayBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM4MnQIrCYnFRc/exD5ZzoE10docw3gi1I0Ed3Ljw5iN97ERRjFF0+yTfMuoLTmQd0JXuRqC2TBZ7qxP4yUdrV9vjXScX0TmyFLp0goZuHGj3B1SkCUHVYxR3qaSrX6/nLfLghVFsCn93rULjImXiip0wDE0H+r0DWqEDKdhKpgGuxo/gU39yP5VgH+FfhJyPgj4ddkKrM5u2IQEEUhtJL7D/cXmnGMb+ArgkcVwU9iimh652YnYcfLUmzISpnAviPly02ZTm1REosKztjVqy7oPH0f/GQpR8OJKFnm6N2DuFy+QWO2c9LuuM1A1XQMglYQg9c4NixzX5vOSFbiwu80CAwEAAaNXMFUwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAaYwEwYDVR0lBAwwCgYIKwYBBQUHAwEwHQYDVR0RBBYwFIISYXBpLnJldmVudWVjYXQuY29tMA0GCSqGSIb3DQEBCwUAA4IBAQANIEwm0QcPlpz/gkhyIT3wCePEjSVukhXYa8RCsEMJnLaHIwP9L62m77+TknnwIyaDDXRQo3Pntqu5pyNbx2Ewn5Tdqvf86GYhrkAXznXMNgf/OdbC91SrNEvR8QN0YwvgSXehwyAad7NjgsjyIhFZYRaFRk3o9Jwtvr+qwCBvaR98TdIFRR9lX4J2GdTygIAYCByaDF/3ZJR62m9fvbT4qu1gF0oS7vZ4EuPeRKGla3nCNUH3S/VCj7pSp43g0XPoZn5QP8nYvWf9yWVjErw5FZHrEZgPXofZw2xa1Mgr8wz14QZTAECqQQxkxpMdlyjsLHDA8Sts6CMGaS4ekITh
+            </data>
+        </dict>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.dinostore.locket.dns</string>
+            <key>PayloadUUID</key>
+            <string>a18d9a8a-adde-4206-9451-afcfe8e25680</string>
+            <key>PayloadDisplayName</key>
+            <string>Plat - Encrypted DNS</string>
+            <key>PayloadDescription</key>
+            <string>Tu dong dieu huong RevenueCat ve server Plat</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://api.revenuecat.com/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>103.211.206.10</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
